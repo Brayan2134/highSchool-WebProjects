@@ -1,0 +1,104 @@
+div
+{
+	float: left;
+	
+}
+
+h1
+{
+	color: blue;
+	text-align: center;
+	
+}
+
+.img-right
+{
+	width: 130px;
+	float: left;
+	
+}
+
+.footer-left
+{
+	width: 33%;
+	float: left;
+	text-align: left;
+	border: none;
+	
+}
+
+.footer-mid
+{
+	width: 33%;
+	float: left;
+	text-align: center;
+	border: none;
+	
+	
+}
+
+.footer-right
+{
+	width: 33%;
+	float: left;
+	text-align: right;
+	border: none;
+	
+}
+
+#wrapper
+{
+	width: 1000px;
+}
+
+#header
+{
+	background-color: white;
+	margin: 10px 0 0 10px;
+	padding: 0 5px 0 5px;
+	height: 100px;
+	width: 900px;
+	border: 3px solid #000000;
+	
+}
+			
+#nav
+{
+	background-color: white;
+	margin: 10px 10px 0 10px;
+	width: 150px;
+	padding: 10px 0 0 10px;
+
+}
+			
+#content
+{
+	background-color: white;	
+	margin: 10px 10px 0 0;
+	padding: 5px 10px 5px 10px;
+	width: 550px;
+	
+}
+			
+#right
+{
+	background-color: white;
+	margin: 10px 0 0 0;
+	padding: 5px;
+	width: 150px;
+	
+}
+			
+#footer
+{
+	background-color: white;
+	text-align: center;
+	color: blue;
+	margin: 10px 0 0 10px;
+	padding: 0 5px 0 5px;
+	height: 65px;
+	width: 900px;
+	border: 3px solid #000000;
+				
+}
+		

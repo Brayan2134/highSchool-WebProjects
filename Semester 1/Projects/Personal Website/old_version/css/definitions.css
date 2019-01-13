@@ -1,0 +1,7 @@
+hr.side {
+    border: solid rgb(24, 24, 24);
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 22px 0 21px;
+    height: 0;
+}

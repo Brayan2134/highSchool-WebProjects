@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.parallax{
+    background-image: url('../img/content/gallery/parallax1.jpg');
+    height: 8vh;
+    margin-bottom: 5vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    margin-top: 5vh;
+    background-image: url('../img/content/gallery/aesthetic.jpg');
+}
+
+.parallax3{
+    margin-top: 5vh;
+    background-image: url('../img/content/gallery/sunrise1.jpg');
+}
+
+.parallaxContainer{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 6vh;
+}
+
+.parallaxContainer2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 6vh;
+}
+
+.parallaxtext{
+    margin-top: 0;
+    margin-left: 6vh;
+}
+
+.image{
+    margin: 18px;
+    width: 200px;
+    height: 113px;
+}
