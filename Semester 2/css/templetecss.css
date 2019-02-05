@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.mastheadblack {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  color: white;
+  background: rgb(24, 24, 24);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.mastheadblack h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#mainNav {
+    min-height: 56px;
+    background-color: white;
+    color: black;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: black;
+    border: none;
+  }
+  
+  #mainNav .nav-link{
+    color: black;
+  }
+
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  #mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+  
+  #mainNav .navbar-nav .nav-item:hover {
+    color: black;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: rgba(170,170,170, 0.3);
+      color: rgb(24, 24, 24);
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+      padding: .5rem 0;
+      color: black;
+    }
+    #mainNav .nav-link {
+      -webkit-transition: none;
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: black;
+    }
+    #mainNav .nav-link:hover {
+      color: rgba(24, 24, 24, 0.3);
+    }
+    #mainNav .nav-link:active {
+      color: black;
+    }
+    #mainNav.navbar-shrink {
+      background-color: rgba(24, 24, 24, 0.3);
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: whitesmoke;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: whitesmoke;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #64a19d;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #467370;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #64a19d;
+      outline: none;
+      border-bottom: 0.25rem solid #64a19d;
+    }
+  }
