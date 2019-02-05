@@ -25,3 +25,12 @@
     background-color: #1a1b29;
     color: white;
 }
+
+a{
+    color: grey;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: none;
+}

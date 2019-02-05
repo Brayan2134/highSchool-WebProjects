@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.sitemap-header{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3vh;
+    font-size: 7vh;
+    font-weight: 500;
+}
+
+.desc{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5vh;
+    color: teal;
+}
+
+.desc:hover{
+    transition: 0.2s;
+    text-decoration: underline;
+}

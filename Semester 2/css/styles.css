@@ -34,3 +34,16 @@ body, html{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+footer{
+    background: #D8D8D8;
+}
+
+a{
+    color: grey;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
