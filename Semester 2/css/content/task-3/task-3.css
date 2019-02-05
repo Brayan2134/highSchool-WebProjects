@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 
 .main{
     margin-top: 1vh;
-    font-family: 'Lora', serif;
-
+    font-family: 'Quicksand', sans-serif;
 }
