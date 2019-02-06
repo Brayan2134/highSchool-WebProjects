@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+body, html{
+    background-color: #F8F8F8;
+}
+
+.short-line{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.lead{
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.btn-jumpto{
+    background: #126180;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.btn-jumpto:hover{
+    background: #072f5f;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer{
+    background: #D8D8D8;
+}
+
+a{
+    color: grey;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
