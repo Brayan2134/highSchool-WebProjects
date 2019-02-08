@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-#footer{
-    font-size: 2vh;
-    color: #494848;
-    font-family: 'Lato', sans-serif;
-    margin-top: 3vh;;
+#copyright{
+    color: grey;
+    font-size: 2vh;   
 }
