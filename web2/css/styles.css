@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
 
 h1,
 h2,
@@ -8,6 +10,14 @@ h4,
 h5,
 h6{
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+p{
+    font-family: 'PT Serif', serif;
+    line-height: 1.75;
+    font-size: 3vh;
 }
 
 

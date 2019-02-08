@@ -5,3 +5,21 @@
     margin-top: 1vh;
     font-family: 'Quicksand', sans-serif;
 }
+
+.image-left{
+    float: left;
+}
+
+.image-right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container-2{
+    background: white;
+}
