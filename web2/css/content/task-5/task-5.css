@@ -1,0 +1,77 @@
+/* Header Parallax Element Style*/ 
+.paral {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 1px;
+    }
+     
+    /* Paragrapgh for Parallax Section */ 
+    .paral p {
+    font-size: 24px;
+    color:#f5f5f5;
+    text-align: center;
+    line-height: 60px;
+    }
+     
+    /* Heading for Parallax Section */ 
+    .paral h1 {
+    color: rgba(24, 24, 24, 0.9);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 100px;
+    }
+     
+    /* Image for Parallax Section */ 
+    .paralsec {
+    background-image: url("../../../img/content/task-5/office-meeting.jpg");
+    height: 10%;
+    width: 100%;
+    }
+
+    .box-1{
+        background: rgb(151,46,26);
+    }
+
+    .box-2{
+        background: #4477b2;
+    }
+
+    .box-3{
+        background: #6f7cd6;
+    }
+
+    .box-4{
+        background: #7cd66f;
+    }
+
+    @media (max-width: 300px) {
+        .sample-image{
+          background-image: url('../../../img/content/task-5/smalldevice.jpg');  
+          height: 30vh;  
+          width: 100vh;
+        }
+      }
+      @media (min-width: 301px) and (max-width: 600px) {
+        .sample-image{
+            background-image: url('../../../img/content/task-5/smalldevice.jpg');       
+            height: 80vh;  
+            width: 100vh;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 768px) {
+        .sample-image{
+            background-image: url('../../../img/content/task-5/mediumdevice.jpg');  
+            height: 60vh;  
+            width: 100vh;
+        }
+      }
+      @media (min-width: 769px) {
+          .sample-image{
+            background-image: url('../../../img/content/task-5/largedevice.jpg');  
+            height: 60vh;  
+            width: 100vh;  
+        }
+      }
