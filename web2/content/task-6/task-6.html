@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Brayan Quevedo - Seeing Different Content</title>
+    <title>Brayan Quevedo - Bootstrap Exploration</title>
 
     <!--Bootstrap Core-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -28,9 +28,10 @@
         <!--Footer-->
         <link rel="stylesheet" href="../../css/footer.css">
 
-        <!--Custom Styles-->
+        <!--Shared CSS-->
         <link rel="stylesheet" href="../../css/templetecss.css">
-        <link rel="stylesheet" href="../../css/content/task-5/task-5.css">
+
+        <!--Custom Styles-->
 </head>
 <body>
     
@@ -59,9 +60,9 @@
     <header class="masthead mastheadblack">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase">Seeing Different Content.</h1>
+                <h1 class="mx-auto my-0 text-uppercase">Bootstrap Exploration.</h1>
+              </div>
             </div>
-        </div>
     </header>
 
     <section class="main">
@@ -69,95 +70,93 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-center">
-                        What is this?
+                        Purpose:
                     </h2>
-                    <p class="text-justify">
-                        This is a wepage that (depending on the device)
-                        will change what you see.
-                        Come back on a laptop or phone to see what 
-                        the expirence would be like!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="d-none d-lg-block d-xl-block col-lg-12 col-xl-12">
-                    <div class="jumbotron paral paralsec">
-                        <h1>This can only be seen on large screens (like laptops)</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-center mt-5">
-                        Moving containers around.
-                    </h2>
-                    <p class="text-justify">
-                        Depending on how big your device is,
-                        will determine how many boxes (that are below),
-                        will show up in 1 row.
-                        If you have a bigger device,
-                        you may see up to 4 boxes in 1 row!
-                        If you have a smaller device, then you may only see 1 or 2.
+                    <p>
+                        Choose three concepts of Bootstrap and display 
+                        them in a meaningful way.
+                        The three concepts that will be displayed are:
+                        inline styling for paragraphs, blockquotes, and the code tag.
                     </p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4 box-1">
-                    <h3 class="text-center text-white">
-                        The first box.
-                    </h3>
+            <div class="row">  
+                <div class="col-12">
+                    <h2 class="text-center mt-3">Inline Paragraph Styling.</h2>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 box-2">
-                    <h3 class="text-center text-white">
-                        The second box.
-                    </h3>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 box-3">
-                    <h3 class="text-center text-white">
-                        The third box.
-                    </h3>
-                </div>
-                <div class="d-lg-none d-xl-none col-sm-12 col-md-6 box-4">
-                    <h3 class="text-center text-white">
-                        The fourth box.
-                    </h3>
-                    <p class="text-justify">
-                        This will <b>NOT</b> show up on large screens 
-                        like a laptop or desktop.
+                <div class="col-12">
+                    <p>
+                        Inline paragraph styling is very useful in the way that 
+                        if you want information to be displayed, but then found out after the 
+                        fact that you made a mistake in some area of your text, and you want to fix it, 
+                        but maybe don't want to delete past text after the fact.
                     </p>
                 </div>
                 <div class="col-12">
-                    <h2 class="text-center mt-5">
-                        Different images.
-                    </h2>
-                    <p class="text-justify">
-                        The picture below this will change 
-                        depending on how big your device is.
-                        Small devices (like phones) will see 
-                        'aesthetic' images, while larger screens 
-                        will see images of popular places around the world.
+                    <p>
+                        In this line, <mark>this is highlighted</mark>.
+                        Usually, if you want something to pop out, but don't want to bold the text 
+                        (because your text is very thick), an option is to highlight it 
+                        to draw attention.
+                    </p>
+                    <p>
+                        When someone is typing a report or blog, and they missite a source article (not source name),
+                        or they figure out that the information is longer accurate <del>they may want to delete this text.</del>
+                    </p>
+                    <p>
+                        <ins>
+                            This line of text is meant to be an addition to the document
+                        </ins>
+                        in the event you forgot something!
                     </p>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 sample-image">
+                <div class="col-12 mt-3">
                     <h2 class="text-center">
-                        The Image.
+                        BlockQuotes.
+                    </h2>     
+                    <p>
+                        Blockquotes are used to site a 
+                        source and quote when they are refering to 
+                        what someone said, usually in a historical context 
+                        or in an interview.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">
+                            This is a quote that someone famous produced.
+                        </p>
+                        <footer class="blockquote-footer">
+                            The famous persons name, <cite title="Source Title">In This Source</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-12">
+                    <h2 class="text-center mt-3">
+                        Code Tag.
                     </h2>
+                    <p>
+                        The code tag is meant to display variables or 
+                        code that the user can use/see what code would be 
+                        displayed. Confused? Let me show you.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <pre><code>&lt;p&gt;Text that's in a paragraph tag.&lt;/p&gt;
+                        &lt;p&gt;Another line of code thats inside a paragraph tag. &lt;/p&gt;
+                    </code></pre>
+                </div>
+                <div class="col-12">
+                    <p>
+                        In order to open task manager in the event of an emergency, go to task manager by pressing: <kbd>ctrl + alt + del</kbd>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 </body>
-
     <!--Footer-->
     <footer>
         <div class="container">
