@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brayan Quevedo - JavaScript Exploration</title>
+
+    <!--Bootstrap Core-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!--FontAwesome/Fonts-->
+    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+
+    <!--CSS-->
+        <!--Global Styles-->
+        <link rel="stylesheet" href="../../css/styles.css">
+
+        <!--Navigation-->
+        <link rel="stylesheet" href="../../css/sidebar.css">
+
+        <!--Header-->
+        <link rel="stylesheet" href="../../css/header.css">
+
+        <!--Footer-->
+        <link rel="stylesheet" href="../../css/footer.css">
+
+        <!--Shared CSS-->
+        <link rel="stylesheet" href="../../css/templetecss.css">
+
+        <!--Custom Styles-->
+        <style>
+        .btn-expand{
+            background: rgb(24, 24, 24);
+            color: white;
+            border: 1px;
+        }
+        </style>
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Brayan Q.</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+               </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="../../index.html" class="nav-link">Home.</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://spraguehs.com/students/students19/quevedo_brayan/" target="_blank">Web 1 Site.</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <!-- Header -->
+    <header class="masthead mastheadblack">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">JavaScript Exploration.</h1>
+              </div>
+            </div>
+    </header>
+
+    <!--Main-->
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">
+                        What is JavaScript?
+                    </h2>
+                    <div class="text-justify">
+                        <p>
+                            JavaScript, commonly known as
+                            JS, is the backbone of the internet.
+                            JS is a general purpose language that, like Java, 
+                            is a write once, run anywhere language. 
+                            Javascript can be ran on any machine for any purpose.
+                            It can be used for front end visual effects, or 
+                            for some data data analysis.
+                        </p>
+                        <h2 class="text-center">
+                            JavaScript For Apps.
+                        </h2>
+                        <p>    
+                            Don't care for either?
+                            What about an app? JavaScript has you covered.
+                            JavaScript is the leader when it comes to extentions (also known as libs) 
+                            to accomplish any task. For your new app idea, you can use libs like 
+                            Vue, Redux, or React to make the app!
+                        </p>
+                        <h2 class="text-center">
+                            Vanilla JavaScript.
+                        </h2>
+                        <p>
+                            Before you go off learning how to make the next Facebook,
+                            there are some things you should know - 
+                            everything is made on top of the standard JS;
+                            so if you don't know what the base JS can do, how will you know 
+                            how the libs work?
+                        </p>
+                        <h2 class="text-center">
+                            What Can Vanilla JavaScript do?
+                        </h2>
+                        <p>
+                            I may have now made the standard JS feel like it's worthless 
+                            but in reality, it can still do a lot!
+                            There's some examples below that show you exactly what the base version can do,
+                            and once you learn the basics, learning any lib becomes so much easier!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background: #E8E8E8">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">
+                        JavaScript getMonth()
+                    </h2>
+                </div>
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="text-justify">
+                                    <p>
+                                        What is getMonth()?
+                                        getMonth(), like in Java, is a method.
+                                        Since JS is a OOP, and general language, it must be able 
+                                        to support classes/objects/methods. In simple terms, the way 
+                                        that the code was written explains what it is.
+                                        Classes and objects are always written in a UppercaseCamelNotation (like this).
+                                        since methods are things that actually have actions, and developers want to know 
+                                        what is a class/object and a method, they use lowercaseCamelNotation to distinuish them.
+                                    </p>
+                                    <h2 class="text-center">
+                                        getMonth() In Action.
+                                    </h2>
+                                    <p>
+                                        The current month is: <b><span id="demo"></span></b>
+                                    </p>
+                                    <h2 class="text-center">
+                                        How did that work?
+                                    </h2>
+                                    <p>
+                                        While i'm not 100% sure on the exact specs of how this 
+                                        works but it's code that someone else wrote 
+                                        for us to display the current month. 
+                                        Now the use case is unclear, but methods in these category 
+                                        could be used for cryptology, or to reassure the user 
+                                        (in a banking situation), that their information is up to date.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">
+                        What Is JavaScript DOM?
+                    </h2>
+                    <p class="text-justify">
+                        JavaScript can be executed when 
+                        something happens, like when 
+                        the user clicks on an element.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-expand" onclick="displayDate()">The time is it?</button>
+                    <p id="getDate"></p>
+                </div>
+                <div class="col-12">
+                    <h2 class="text-center">
+                        What Happened?
+                    </h2>
+                    <p class="text-justify">
+                        That was JavaScript DOM in action!
+                        When the user clicked on the button, the button triggered an event 
+                        (using JS), that got a method to get the date. How did it work? 
+                        Again, i'm not sure, but the method that someone wrote was used.
+                    </p>
+                    <h2 class="text-center">
+                        In Conclusion.
+                    </h2>
+                    <p class="text-justify">
+                        JavaScript is a power language that can be used everywhere.
+                        JS, can be used for visual effects, backend stuff, apps, and anything that you heart 
+                        desires. Vanilla JS does not have all of the capabilities but there are 
+                        libs available online that make the task that you want to accomplish, faster!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="text-center" id="footer">
+                &copy; Brayan Quevedo Ramos 2019. All Rights Reserved. |
+                <a href="../../sitemap/sitemap.html">sitemap.</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!--Js Plugin-->
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!--General JS-->
+    <script src="../../js/grayscale.min.js"></script>
+
+    <!--getMonth JS-->
+    <script src="../task-7/getMonth.js"></script>
+
+    <!--getDate JS-->
+    <script src="./getDate.js"></script>
+</html>
