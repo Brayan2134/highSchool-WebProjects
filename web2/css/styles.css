@@ -68,3 +68,24 @@ a:hover{
     color: grey;
     text-decoration: none;
 }
+
+@media only screen and (min-width: 1024px) {
+    section.main{
+        margin-left: 30vh;
+        margin-right: 30vh;
+    }
+  }
+
+@media only screen and (max-width: 1023px) {
+    section.main{
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    section.main{
+        margin-left: 0vh;
+        margin-right: 0vh;
+    }
+  }
